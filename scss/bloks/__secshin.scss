@@ -1,0 +1,121 @@
+.secshin {
+  margin-top: 130px;
+  margin-bottom: 46px;
+  &__h2 {
+    margin-bottom: 72px;
+  }
+  &__div-small {
+    display: flex;
+    align-items: center;
+    gap: 36.7px;
+    border: none;
+    width: 232px;
+    margin-bottom: 44px;
+  }
+  &__h4 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #363738;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    padding-top: 8px;
+    width: 174px;
+  }
+  &__p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &__div-raght {
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9fb;
+    width: 794px;
+    padding: 40px 72px 56px 48px;
+  }
+  &__p-2 {
+    font-size: 16px;
+    line-height: 20px;
+    width: 175px;
+  }
+  &__h5 {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    color: #363738;
+  }
+  &__div-text-2 {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+    border-bottom: 1px solid#E9EAF2;
+    padding-bottom: 16px;
+    margin-bottom: 48px;
+  }
+  &__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__div-text-1 {
+    border-bottom: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .secshin {
+    margin-top: 66px;
+    margin-bottom: 82px;
+    &__h2 {
+      margin-bottom: 98px;
+    }
+    &__div {
+      display: block;
+    }
+    &__div-text-2 {
+      gap: 16px;
+    }
+    &__div-raght {
+      padding: 80px 20px 0 36px;
+      width: 675px;
+    }
+    &__div-left {
+      margin-bottom: 46px;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .secshin {
+    margin-top: 116px;
+    margin-bottom: 29px;
+    &__h2 {
+      font-size: 28px;
+      font-weight: 35px;
+      margin-bottom: 56px;
+    }
+    &__p {
+      font-size: 15px;
+      line-height: 22.5px;
+    }
+    &__h4 {
+      font-size: 20px;
+      line-height: 24px;
+      padding-top: 12px;
+    }
+    &__div-left {
+      margin-bottom: 72px;
+    }
+    &__p-2 {
+      font-size: 15px;
+      line-height: 18.75px;
+      width: 175px;
+      padding-bottom: 12px;
+    }
+    &__div-text-2 {
+      display: block;
+    }
+    &__div-raght {
+      padding: 40px 38px 48px 24px;
+      width: 345px;
+    }
+  }
+}

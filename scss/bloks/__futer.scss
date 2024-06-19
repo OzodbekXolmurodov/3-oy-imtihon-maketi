@@ -1,0 +1,125 @@
+.futer {
+  margin-top: 50px;
+  &__div-small {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 554px;
+    background-color: #fff;
+    box-shadow: 0px 4px 15px 0px #00000026;
+    padding: 32px 0 40px 32px;
+    &:hover {
+      background-color: #0b7572;
+    }
+  }
+  &__h2 {
+    margin-bottom: 72px;
+  }
+  &__h4 {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #363738;
+  }
+  &__p {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 12px 0 16px 0;
+  }
+  &__img-line {
+    display: block;
+    padding-bottom: 31px;
+  }
+  &__div-big {
+    border: none;
+    box-shadow: 0px 4px 15px 0px #00000026;
+    background-color: #0b7572;
+    border-radius: 10px;
+    padding-left: 51px;
+    width: 605px;
+    &:hover {
+      background-color: #fff;
+    }
+  }
+  &__img-small {
+    padding-left: 15px;
+  }
+  &__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  &__img-dizayn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .futer {
+    margin-top: 20px;
+    &__h2 {
+      margin-bottom: 56px;
+    }
+    &__div-small {
+      display: block;
+      width: 300px;
+      padding: 24px 105px 32px 30px;
+    }
+    &__div-big {
+      width: 330px;
+      padding-left: 41px;
+    }
+    &__div {
+      gap: 30px;
+    }
+    &__clear {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .futer {
+    margin-top: 90px;
+    &__h2 {
+      font-size: 28px;
+      line-height: 35px;
+      margin-bottom: 32px;
+    }
+    &__div-rght-2 {
+      display: none;
+    }
+    &__img {
+      display: none;
+    }
+    &__img-dizayn {
+      display: inline;
+    }
+    &__div-small {
+      display: flex;
+      width: 325px;
+      padding: 24px 21px 32px 16px;
+    }
+    &__div-big {
+      width: 345px;
+      padding-left: 20px;
+    }
+    &__h4 {
+      font-size: 18px;
+      line-height: 21.6px;
+    }
+    &__p {
+      font-size: 14px;
+      line-height: 21px;
+      width: 172px;
+      padding: 10px 0 14px 0;
+    }
+    &__div {
+      gap: 14px;
+    }
+  }
+}

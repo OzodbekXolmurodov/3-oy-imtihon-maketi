@@ -1,0 +1,117 @@
+.medium {
+  margin-top: 120px;
+  &__h2 {
+    margin-bottom: 90px;
+  }
+  &__div-small {
+    border: none;
+    width: 184px;
+    text-align: center;
+    margin-right: 73px;
+  }
+  &__p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &__h4 {
+    padding: 32px 0 14px 0;
+  }
+  &__div-main {
+    border-right: 1px solid#D7D7DD;
+    margin-bottom: 80px;
+  }
+
+  &__div-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 49px;
+  }
+  &__div-main-2 {
+    border-right: none;
+  }
+  &__h4-2 {
+    padding: 56px 0 14px 0;
+  }
+  &__h4-5 {
+    padding: 57.73px 0 14px 0;
+  }
+  &__img {
+    padding-top: 9px;
+  }
+  &__img-8 {
+    padding-right: 123px;
+  }
+  &__h4-8 {
+    padding: 59.3px 0 14px 0;
+  }
+  &__dizayn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .medium {
+    margin-top: 88px;
+    &__h2 {
+      margin-bottom: 64px;
+    }
+    &__div-small {
+      margin-right: 124px;
+    }
+    &_div-2 {
+      padding-left: 37px;
+    }
+    &__div-small-2 {
+      margin-right: 0;
+    }
+    &__div-main {
+      margin-bottom: 65px;
+    }
+    &__div-main-3 {
+      border-right: none;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .medium {
+    margin-top: 64px;
+    &__clear {
+      display: none;
+    }
+    &__h2 {
+      font-size: 28px;
+      line-height: 35px;
+      margin-bottom: 56px;
+    }
+    &__div-2 {
+      padding: 0;
+    }
+    &__h4 {
+      font-size: 18px;
+      line-height: 24.3px;
+      padding: 24px 0 12px 0;
+    }
+    &__p {
+      font-size: 14px;
+      line-height: 18.9px;
+    }
+    &__img {
+      display: none;
+    }
+    &__dizayn {
+      display: inline;
+    }
+    &__div-small {
+      margin-right: 0;
+      width: 172px;
+      padding: 13px;
+    }
+    &__h4-2 {
+      padding: 49.15px 0 12px 0;
+    }
+    &__div-main {
+      margin-bottom: 48px;
+    }
+  }
+}

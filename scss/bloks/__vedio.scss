@@ -1,0 +1,21 @@
+.vedio {
+  margin-bottom: 165px;
+}
+@media only screen and (max-width: 900px) {
+  .vedio {
+    margin-bottom: 59px;
+    &__1 {
+      width: 675px;
+      height: 405px;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .vedio {
+    margin-bottom: 25.8px;
+    &__1 {
+      width: 327px;
+      height: 196.2px;
+    }
+  }
+}

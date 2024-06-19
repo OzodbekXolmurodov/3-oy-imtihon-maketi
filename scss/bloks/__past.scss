@@ -1,0 +1,129 @@
+.past {
+  border: none;
+  border-width: 1440px;
+  background-color: #0b7572;
+  padding: 81px 234px 30px 95px;
+
+  &__div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  &__list-li {
+    font-size: 13px;
+    line-height: 19.5px;
+    color: #ffffff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  &__ul-div {
+    display: flex;
+    gap: 97px;
+    align-items: baseline;
+  }
+  &__doyira {
+    padding-right: 14.43px;
+    margin-bottom: 91.18px;
+  }
+  &__p {
+    padding-top: 80px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__arrow {
+    border: 1px solid #ff9619;
+    background-color: #ff9619;
+    padding: 20px 22px 20px 245.42px;
+  }
+  &__dizayn {
+    display: none;
+  }
+  &__doyira-small {
+    display: none;
+  }
+  &__dizayn-2 {
+    display: none;
+  }
+  &__dizayn-3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .past {
+    padding: 42px 123.99px 21.32px 50.34px;
+    &__logo {
+      display: none;
+    }
+    &__dizayn {
+      display: inline;
+    }
+    &__list-li {
+      font-size: 8px;
+      line-height: 12px;
+      margin-bottom: 13px;
+    }
+    &__ul-div {
+      gap: 74px;
+    }
+    &__p {
+      font-size: 10px;
+      line-height: 15px;
+    }
+    &__arrow {
+      padding: 10.26px 5.9px 11.29px 143.04px;
+    }
+    &__doyira {
+      display: none;
+    }
+    &__doyira-small {
+      display: inline;
+      margin-bottom: 47px;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .past {
+    padding: 20px 40px 29px 45px;
+    &__div {
+      display: block;
+    }
+    &__ul-div {
+      gap: 60px;
+    }
+    &__list-li {
+      font-size: 8px;
+      line-height: 12px;
+      margin-bottom: 26.72px;
+    }
+    &__dizayn {
+      display: none;
+    }
+    &__dizayn-2 {
+      display: block;
+      margin-bottom: 23px;
+    }
+    &__dizayn-3 {
+      display: inline;
+      margin-bottom: 114px;
+    }
+    &__doyira-small {
+      display: none;
+    }
+    &__arrow {
+      padding: 19px 23px 18px 264px;
+    }
+    &__p {
+      font-family: "Exo 2", sans-serif;
+      font-weight: 500;
+      padding-top: 16px;
+      font-size: 10px;
+      line-height: 15px;
+      width: 161.7px;
+      margin-left: 100px;
+    }
+  }
+}
